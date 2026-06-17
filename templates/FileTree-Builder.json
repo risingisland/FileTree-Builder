@@ -4,6 +4,21 @@
         "type": "folder",
         "children": [
             {
+                "text": "index.php",
+                "type": "file",
+                "children": []
+            },
+            {
+                "text": "README.md",
+                "type": "file",
+                "children": []
+            },
+            {
+                "text": "LICENSE",
+                "type": "file",
+                "children": []
+            },
+            {
                 "text": "assets",
                 "type": "folder",
                 "children": [
@@ -122,21 +137,6 @@
                         "children": []
                     }
                 ]
-            },
-            {
-                "text": "index.php",
-                "type": "file",
-                "children": []
-            },
-            {
-                "text": "README.md",
-                "type": "file",
-                "children": []
-            },
-            {
-                "text": "LICENSE",
-                "type": "file",
-                "children": []
             }
         ]
     }
