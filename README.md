@@ -30,27 +30,33 @@ A lightweight, browser-based tool for visually designing and exporting file/fold
 ## File Structure
 
 ```
-www/
-├── index.php               — Main application
-├── templates.php           — Templates API (list / load / save)
-├── templates/              — JSON template files
-│   ├── blank.json
-│   ├── website.json
-│   └── getsimple-plugin.json
-└── assets/
-    ├── css/
-    │   ├── filetree-builder.css
-    │   ├── fontawesome.min.css
-    │   └── jstree.min.css
-    ├── js/
-    │   ├── jquery.min.js
-    │   ├── jstree.min.js
-    │   ├── dom-to-image-more.min.js
-    │   └── jszip.min.js
-    └── webfonts/
-        ├── fa-brands-400.woff2
-        ├── fa-regular-400.woff2
-        └── fa-solid-900.woff2
+www
+├── index.php
+├── README.md
+├── LICENSE
+├── assets
+│   ├── css
+│   │   ├── 32px.png
+│   │   ├── 40px.png
+│   │   ├── filetree-builder.css
+│   │   ├── fontawesome.min.css
+│   │   ├── jstree.min.css
+│   │   └── throbber.gif
+│   ├── js
+│   │   ├── dom-to-image-more.min.js
+│   │   ├── filetree-builder.js
+│   │   ├── jquery.min.js
+│   │   ├── jstree.min.js
+│   │   └── jszip.min.js
+│   ├── webfonts
+│   │   ├── fa-brands-400.woff2
+│   │   ├── fa-regular-400.woff2
+│   │   └── fa-solid-900.woff2
+│   └── templates.php
+└── templates
+	├── FileTree-Builder.json
+	├── getsimple-plugin.json
+	└── website.json
 ```
 
 ---
