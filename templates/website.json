@@ -1,0 +1,62 @@
+[
+    {
+        "text": "www",
+        "type": "folder",
+        "children": [
+            {
+                "text": "assets",
+                "type": "folder",
+                "children": [
+                    {
+                        "text": "css",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "text": "style.css",
+                                "type": "file",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "js",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "text": "scripts.js",
+                                "type": "file",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "images",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "text": "header.jpg",
+                                "type": "file",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "contact.html",
+                "type": "file",
+                "children": []
+            },
+            {
+                "text": "index.html",
+                "type": "file",
+                "children": []
+            },
+            {
+                "text": "services.html",
+                "type": "file",
+                "children": []
+            }
+        ]
+    }
+]

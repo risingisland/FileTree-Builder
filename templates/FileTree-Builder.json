@@ -1,0 +1,143 @@
+[
+    {
+        "text": "www",
+        "type": "folder",
+        "children": [
+            {
+                "text": "assets",
+                "type": "folder",
+                "children": [
+                    {
+                        "text": "css",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "text": "32px.png",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "40px.png",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "filetree-builder.css",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "fontawesome.min.css",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "jstree.min.css",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "throbber.gif",
+                                "type": "file",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "js",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "text": "dom-to-image-more.min.js",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "filetree-builder.js",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "jquery.min.js",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "jstree.min.js",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "jszip.min.js",
+                                "type": "file",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "webfonts",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "text": "fa-brands-400.woff2",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "fa-regular-400.woff2",
+                                "type": "file",
+                                "children": []
+                            },
+                            {
+                                "text": "fa-solid-900.woff2",
+                                "type": "file",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "templates.php",
+                        "type": "file",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "text": "templates",
+                "type": "folder",
+                "children": [
+                    {
+                        "text": "FileTree-Builder.json",
+                        "type": "file",
+                        "children": []
+                    },
+                    {
+                        "text": "getsimple-plugin.json",
+                        "type": "file",
+                        "children": []
+                    },
+                    {
+                        "text": "website.json",
+                        "type": "file",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "text": "index.php",
+                "type": "file",
+                "children": []
+            },
+            {
+                "text": "README.md",
+                "type": "file",
+                "children": []
+            },
+            {
+                "text": "LICENSE",
+                "type": "file",
+                "children": []
+            }
+        ]
+    }
+]

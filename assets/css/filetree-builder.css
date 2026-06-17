@@ -1,0 +1,302 @@
+body {
+	margin:0;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	background:#f5f7fa;
+	font-family:'Segoe UI',sans-serif;
+}
+
+body.dark {
+	background:#1e1e1e;
+}
+
+body.dark #tree-panel,
+body.dark #ascii-panel {
+	background:#252526;
+	color:#ddd;
+}
+
+body.dark .panel-header {
+	background:#2d2d30;
+	border-color:#444;
+}
+
+body.dark #toolbar {
+	background:#252526;
+	border-color:#444;
+}
+
+body.dark button {
+	background:#3b82f6;
+}
+
+body.dark .jstree-default {
+	background:#252526;
+	color:#ddd;
+}
+
+body.dark .jstree-anchor {
+	color:#ddd;
+}
+
+body.dark .jstree-wholerow-hovered {
+	background:#333 !important;
+}
+
+body.dark .jstree-wholerow-clicked {
+	background:#444 !important;
+}
+
+body.dark .jstree-contextmenu {
+	background:#252526;
+}
+
+body.dark .vakata-context li > a {
+	color:#fff;
+	text-shadow: 1px 1px 0 black;
+}
+
+body.dark .vakata-context li>a:hover {
+	color:#000;
+	text-shadow:1px 1px 0 #e8eff7;
+}
+
+body.dark .export-dropdown {
+	background:#2d2d30;
+	border-color:#444;
+}
+
+body.dark .export-dropdown li {
+	color:#ddd;
+}
+
+body.dark .export-dropdown li:hover {
+	background:#3a3a3d;
+	color:#60a5fa;
+}
+
+body.dark .export-divider,
+body.dark .export-divider:hover {
+	background:#444 !important;
+}
+
+body.dark #template-select {
+	background-color:#3b82f6;
+}
+
+body.dark #template-select:hover {
+	background-color:#2563eb;
+}
+
+#main {
+	flex:1;
+	display:flex;
+	gap:10px;
+	padding:10px;
+}
+
+#toolbar {
+	background:#ffffff;
+	border-bottom:1px solid #ddd;
+	padding:12px;
+	display:flex;
+	gap:10px;
+	align-items:center;
+}
+
+.toolbar-group {
+	display:flex;
+	gap:1px;
+}
+
+.toolbar-group button:first-child {
+	border-radius:6px 0 0 6px;
+}
+
+.toolbar-group button:last-child {
+	border-radius:0 6px 6px 0;
+}
+
+.panel-header {
+	padding:12px;
+	font-weight:600;
+	border-bottom:1px solid #eee;
+	background:#fafafa;
+	cursor:text;
+	user-select:none;
+}
+
+.panel-header input {
+	border:none;
+	outline:none;
+	background:transparent;
+	font:inherit;
+	font-weight:600;
+	color:inherit;
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+#divider {
+	width:6px;
+	cursor:col-resize;
+	background:#ddd;
+}
+
+button {
+	border:none;
+	background:#2563eb;
+	color:#fff;
+	border-radius:6px;
+	padding:8px 14px;
+	cursor:pointer;
+	transition:.2s;
+}
+
+button:hover {
+	background:#1d4ed8;
+}
+
+#template-select {
+	border:none;
+	background:#2563eb;
+	color:#fff;
+	border-radius:6px;
+	padding:8px 14px;
+	cursor:pointer;
+	transition:.2s;
+	font-family:'Segoe UI',sans-serif;
+	font-size:14px;
+	appearance:none;
+	-webkit-appearance:none;
+	background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%23fff' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+	background-repeat:no-repeat;
+	background-position:right 10px center;
+	padding-right:28px;
+}
+
+#template-select:hover {
+	background-color:#1d4ed8;
+}
+
+#template-select option {
+	background:#1e40af;
+	color:#fff;
+}
+
+#import-json {
+	padding:5px;
+}
+
+#tree-panel,
+#ascii-panel {
+	flex:1;
+	background:#fff;
+	border-radius:8px;
+	overflow:hidden;
+	box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+#ascii {
+	margin:0;
+	padding:15px;
+	overflow:auto;
+	font-family:Consolas, monospace;
+	height:calc(100% - 50px);
+}
+
+.fa-folder {
+	color:#f4b400 !important;
+}
+
+.fa-folder-open {
+	color:#f4b400 !important;
+}
+
+/* Export dropdown */
+.export-wrap {
+	position:relative;
+}
+
+.export-wrap #export-btn {
+	border-radius:6px 0 0 6px;
+}
+
+.export-dropdown {
+	display:none;
+	position:absolute;
+	top:calc(100% + 4px);
+	left:0;
+	background:#fff;
+	border:1px solid #ddd;
+	border-radius:6px;
+	box-shadow:0 4px 12px rgba(0,0,0,.12);
+	list-style:none;
+	margin:0;
+	padding:4px 0;
+	min-width:190px;
+	z-index:1000;
+}
+
+.export-dropdown.open {
+	display:block;
+}
+
+.export-dropdown li {
+	padding:9px 16px;
+	cursor:pointer;
+	font-size:13px;
+	color:#333;
+	display:flex;
+	align-items:center;
+	gap:8px;
+	white-space:nowrap;
+}
+
+.export-dropdown li:hover {
+	background:#f0f4ff;
+	color:#2563eb;
+}
+
+.export-divider {
+	height:1px;
+	background:#eee;
+	margin:4px 0;
+	padding:0 !important;
+	cursor:default !important;
+}
+
+.export-divider:hover {
+	background:#eee !important;
+	color:inherit !important;
+}
+
+.php {
+	color:#6220BD !important;
+}
+.html {
+	color:#e34c26 !important;
+}
+.js {
+	color:#D9007E !important;
+}
+.css {
+	color:#42a5f5 !important;
+}
+.jpg, .jpeg, .gif, .svg, .png, .webp, .ico {
+	color:#4caf50 !important;
+}
+.md, .txt {
+	color:#999 !important;
+}
+.pdf {
+	color:#d32f2f !important;
+}
+.zip {
+	color:#795548 !important;
+}
+.json, .db {
+	color:#5533FF !important;
+}
