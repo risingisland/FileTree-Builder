@@ -101,6 +101,8 @@ body.dark #template-select:hover {
 	border-bottom:1px solid #ddd;
 	padding:12px;
 	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
 	gap:10px;
 	align-items:center;
 }
@@ -299,4 +301,22 @@ button:hover {
 }
 .json, .db {
 	color:#5533FF !important;
+}
+
+.footer {
+	text-align:center;
+	padding: 0 5px 10px;
+}
+
+.footer a {
+	color: black;
+}
+
+body.dark .footer {
+	background:#252526;
+	color:#ddd;
+}
+
+body.dark .footer a {
+	color: white;
 }
